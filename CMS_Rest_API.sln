@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_Rest_API.EntityLayer", "CMS_Rest_API.EntityLayer\CMS_Rest_API.EntityLayer.csproj", "{4066EE3E-EA12-4D70-AB8A-6DFF61742312}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_Rest_API.MappingLayer", "CMS_Rest_API.MappingLayer\CMS_Rest_API.MappingLayer.csproj", "{3D8AD4D1-807F-4A95-BB73-B532E42ACC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_Rest_API.DataAccessLayer", "CMS_Rest_API.DataAccessLayer\CMS_Rest_API.DataAccessLayer.csproj", "{34755DDA-3C93-47DA-A213-54D5E58EDCBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4066EE3E-EA12-4D70-AB8A-6DFF61742312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4066EE3E-EA12-4D70-AB8A-6DFF61742312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4066EE3E-EA12-4D70-AB8A-6DFF61742312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8AD4D1-807F-4A95-BB73-B532E42ACC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8AD4D1-807F-4A95-BB73-B532E42ACC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8AD4D1-807F-4A95-BB73-B532E42ACC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8AD4D1-807F-4A95-BB73-B532E42ACC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34755DDA-3C93-47DA-A213-54D5E58EDCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34755DDA-3C93-47DA-A213-54D5E58EDCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34755DDA-3C93-47DA-A213-54D5E58EDCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34755DDA-3C93-47DA-A213-54D5E58EDCBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS_Rest_API.EntityLayer\CMS_Rest_API.EntityLayer.csproj" />
+    <ProjectReference Include="..\CMS_Rest_API.MappingLayer\CMS_Rest_API.MappingLayer.csproj" />
+  </ItemGroup>
+
+</Project>
