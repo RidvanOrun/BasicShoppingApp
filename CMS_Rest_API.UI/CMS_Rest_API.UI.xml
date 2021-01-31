@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CMS_Rest_API.UI</name>
+    </assembly>
+    <members>
+        <member name="M:CMS_Rest_API.UI.Controllers.CategoryController.GetCategoryById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS_Rest_API.UI.Controllers.CategoryController.GetCategoryBySlug(System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>
