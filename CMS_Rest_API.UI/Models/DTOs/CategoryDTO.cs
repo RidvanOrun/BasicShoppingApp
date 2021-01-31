@@ -8,6 +8,7 @@ namespace CMS_Rest_API.UI.Models.DTOs
 {
     public class CategoryDTO:Profile
     {
+        public int id { get; set; }
         public string Name { get; set; }
         public string Slug { get; set; }
     }
